@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carregar Todos os Pokémon</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300&family=Poppins:wght@200;300;400;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="indice">
+        <input type="search" id="search-input" placeholder="Informe o nome" class="pesquisar2" class="form-control" class="bi bi-search">
+        
+        <a href="index.html" class="btn-go-to-all" class="voltar">Voltar</a>
+
+        <img src="icons/icon1.png" class="cam2">
+        <h4 class="qual2">Qual é esse pokemon?</h4>
+
+        
+        
+        <img src="images/logo_pokedex.png" class="logo">
+    <img src="images/pokebola1.png" class="pokebola1">
+    <div class="transicao"></div>
+    <div class="transicao2"></div>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="close-button">&times;</span>
+            <h2 id="modal-title"></h2>
+            <div id="modal-content"></div>
+        </div>
+    </div>
+
+    <div id="pokemon-list" class="pokemon-list"></div>
+    <script src="js/carregartodos.js"></script>
+</body>
+</html>
